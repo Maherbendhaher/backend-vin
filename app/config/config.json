@@ -1,0 +1,19 @@
+{
+    "dbName": "vente_vin",
+    "dbConfig": {
+        "server": "DESKTOP-HV6BJ4M",
+     
+        "options": {
+            "port": 1433,
+            "trustServerCertificate": true
+        },
+        "authentication": {
+            "type": "default",
+           "options": {
+                "userName": "maher",
+                "password": "maher12345"
+            }
+        }
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}
